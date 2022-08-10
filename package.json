@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "private": "true",
+  app_package/src/index.ts
   "scripts": {
     "install": "npm-recursive-install --skip-root",
     "dev": "concurrently \"npm --prefix ./app_package run dev\" \"npm --prefix ./test_package run dev\"",
